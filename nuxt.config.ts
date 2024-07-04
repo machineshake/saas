@@ -39,6 +39,21 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4
   },
+  runtimeConfig: {
+    databaseUrl: '',
+    public: {
+      url: '',
+    },
+    google: {
+      clientId: '',
+      clientSecret: '',
+    },
+    stripe: {
+      publishableKey: '',
+      secretKey: '',
+      webhookSecret: '',
+    },
+  },
   eslint: {
     config: {
       stylistic: {
